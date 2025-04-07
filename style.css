@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+  .container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+/*header part*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  width:100vw;
+  height:10vh;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.logout {
+  display: flex;
+  margin-right: 50px;
+  justify-content: center;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
+}
+
+.logout:hover {
+  background-color: #e60000;
+}
+
+.logout-image {
+  width: 20px;
+  height: 18px;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+.info{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.techno-image {
+  width: 100px;
+  height: 50px;
+  border-radius:5px;
+  margin-right: 8px;
+}
+
+.details .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.details .rep {
+  font-size: 14px;
+  color: gray;
+}
+/*upload documents part*/
+.upload-documents{
+  background-color: white; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top:90px;
+  padding: 20px;
+  height: 230px;
+  width:80vw;
+  border-radius: 10px;
+  margin-bottom:25px ;
+}
+.upload-button{
+  display: flex;
+  justify-content: center;
+  background-color:rgb(71, 71, 234);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out; 
+  display: block;
+  margin: 0 auto;
+}
+.upload-button:hover {
+  background-color: #1f0cf0;
+}
+.upload-button-image{
+  height: 25px;
+  border-radius: 1px;
+}
+.upload-section{
+  margin-top: 21px;
+  border: 2px dashed #007bff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.upload-section h3 {
+  font-size: 16px;
+  margin-bottom: 3px;
+  margin-top:5px;
+}
+.upload-section h4 {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+#upload-documents{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+/*upload files*/
+.uploaded-files {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  width:80vw;
+  height:13vh;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.uploaded-files h3 {
+  font-size: 18px;
+  
+  margin-bottom: 20px;
+  margin-top:5px ;
+}
+
+.files-uploaded {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
